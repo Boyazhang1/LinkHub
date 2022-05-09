@@ -19,6 +19,7 @@ model User {
   bookmarks Link[]
 }
 
+// enum: Role can either be admin or user
 enum Role {
   ADMIN
   USER 
